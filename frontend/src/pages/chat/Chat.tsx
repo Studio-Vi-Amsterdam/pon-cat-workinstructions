@@ -687,14 +687,14 @@ const Chat = () => {
                                             color: '#FFFFFF',
                                         },
                                         iconDisabled: {
-                                            color: "#BDBDBD !important",
+                                            color: "rgba(20, 20, 20, 0.7) !important",
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)",
+                                            background: "#141414",
                                         },
                                         rootDisabled: {
-                                            background: "#F0F0F0"
+                                            background: "rgba(20, 20, 20, 0.7)"
                                         }
                                     }}
                                     className={appStateContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured ? styles.clearChatBroom : styles.clearChatBroomNoCosmos}
